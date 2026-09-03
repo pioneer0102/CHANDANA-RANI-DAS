@@ -670,11 +670,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__fact {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.5rem;
 }
 
-.about__fact-icon {
+i.about__fact-icon {
     flex-shrink: 0;
     width: 4.4rem;
     height: 4.4rem;
@@ -685,6 +685,8 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     justify-content: center;
     font-size: 1.7rem;
+    line-height: 1;
+    text-align: center;
 }
 
 .about__fact-label {
