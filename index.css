@@ -252,6 +252,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .btn--pink {
     background: var(--accent);
+    color: #ffffff;
     transition: all 0.2s;
 }
 
@@ -262,6 +263,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn--pink:hover,
 .btn--pink:focus {
     background: transparent;
+    color: inherit;
 }
 
 .link__text {
